@@ -1,0 +1,21 @@
+.red {
+    color: red;
+}
+
+.monospace {
+    font-family: monospace;
+    font-size: 25px;
+}
+
+#blue {
+    color: blue;
+}
+
+#img_salad {
+    width: 400px;
+}
+
+#img_salad:hover {
+    width: 400px;
+    border: 6px black dashed;
+}
