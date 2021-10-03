@@ -1,0 +1,46 @@
+body {
+  background-image: url("https://wallpapercave.com/wp/pQWqfMh.jpg");
+  background-color: #cccccc
+  background-repeat: no-repeat
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: center
+}
+
+.comic-sans {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+    background-color: darkorange;
+}
+
+h2 {
+    color: darkorange;
+    font-size: 32px;
+}
+
+.search{
+    color: darkorange;
+    font-size: 14px;
+}
+
+.mix-blend-mode{
+  mix-blend-mode: multiply;
+}
+
+.link{
+    color: white;
+    text-shadow: 1px 1px 2px darkorange, 0 0 25px orange, 0 0 5px darkorange;
+    font-size: 48px;
+    text-decoration: underline;
+}
+
+table{
+    color: darkorange;
+    margin-left: auto;
+    margin-right: auto;
+}
