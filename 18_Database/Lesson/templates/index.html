@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chat app</h1>
+
+    <form action="/add-message" method="post">
+        <input type="text" name="name" placeholder="Enter your name">
+        <br>
+        <br>
+        <textarea name="message" placeholder="Enter your message"></textarea>
+        <br>
+        <button type="submit">Send message</button>
+    </form>
+
+    {% for message in messages %}
+        <strong>{{ message.author }}</strong>
+        <br>
+        {{ message.text }}
+        <br>
+    {% endfor %}
+
+</body>
+</html>
