@@ -107,11 +107,11 @@ section {
 	width:40px;
 	height:40px;
 	float:left;
-	margin-right:13px;
+	margin-top:10px;
 	border-radius:100%;
 }
 .post-top-meta {
-	margin-bottom:2rem;
+	margin-bottom:1rem;
 }
 .post-top-meta .author-thumb {
 	width:72px;
@@ -195,8 +195,8 @@ span.post-name a,span.post-read-more a:hover {
 	cursor:pointer;
 }
 .mediumnavigation .navbar-brand img {
-	max-height:30px;
-	margin-right:5px;
+	max-height:50px;
+    margin-right: 5px;
 }
 .mainheading h1.sitetitle {
 	font-family:Righteous;
@@ -214,12 +214,14 @@ span.post-name a,span.post-read-more a:hover {
 	margin-top:50px;
 }
 .link-dark {
-	color:rgba(0,0,0,.8);
+	color:rgba(0,0,0,1);
+
 }
 .article-post {
 	font-family:Merriweather;
-	font-size:1.2rem;
-	line-height:1.8;
+	font-size:1rem;
+	text-align:justify;
+	line-height:1.75;
 	color:rgba(0,0,0,.8);
 }
 blockquote {
